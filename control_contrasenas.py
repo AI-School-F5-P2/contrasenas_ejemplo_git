@@ -20,3 +20,5 @@ def main():
     else:
         print("MAAAAAAAAAL")
 
+if __name__ == "__main__":
+    main()
