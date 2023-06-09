@@ -7,4 +7,7 @@ with open("contrasenas.txt", "r") as archivo_contrasenas:
 
 #TODO: función que compare las contraseñas
 
+def compara_contraseñas(contraseña_introducida, contraseña_correcta):
+    return True if contraseña_introducida == contraseña_correcta else False
+
 #TODO: función main que controle el flujo del programa
